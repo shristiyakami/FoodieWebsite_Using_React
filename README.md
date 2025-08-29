@@ -11,7 +11,8 @@ Welcome to the Foodie Website page. This project is designed in Figma and implem
 
 ### **Figma Design**  
 
-[**View the Figma Design here:**]([Insert-your-Figma-link-here](https://www.figma.com/design/dyJo5jpaWGX2nGiYufkzPH/Untitled?node-id=0-1&t=licfmxCSjAdkM931-1))  
+[**View the Figma Design here**](https://www.figma.com/design/dyJo5jpaWGX2nGiYufkzPH/Untitled?node-id=0-1&t=licfmxCSjAdkM931-1)  
+
 
 
 ![image alt](https://github.com/shristiyakami/FoodieWebsite_Using_React/blob/278dc4532770a3e99d02fc3fdf482a4c89d3bbf2/1.png)
