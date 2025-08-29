@@ -1,0 +1,54 @@
+.AboutUs{
+    padding: 20px 25px; 
+    display: flex; /*By default, flex arranges its children in a row (flex-direction: row). 
+                    So the <img>, <h1>, and <p> are aligned side by side instead of stacking vertically.*/
+    align-items:center;
+    background-color: #F6EEEE;
+}
+.AboutUs .AboutUs_1{
+    width: 325px;
+}
+.AboutUs .AboutUs_2{
+    margin-left: -35px; 
+    width: 280px;
+}
+
+.AboutUs-content {
+    display: flex;
+    flex-direction: column; /* stack h1 and p vertically */
+    margin-left: 20px; /* space between images and text */
+}
+
+.AboutUs h1 {
+    padding: 0px 20px; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: max(4.5vw, 22px);
+    color: #262626;
+    margin-bottom: 10px; /* small gap below h1 */
+    margin-top: -80px;
+}
+
+.AboutUs-text {
+    padding: 0px 20px; 
+    color: #262626;
+    font-size: 16px;
+    font-weight: 200;
+    max-width: 700px;
+    margin-bottom: 30px; /* small gap below text */
+}
+.AboutUs button{
+    border: none;
+    background-color: #F3850F;
+    color: black;
+    width: 140px;
+    height: 45px;
+    font-size: max(15px,15px);
+    font-weight:450;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.AboutUs button:hover{
+    background-color: #DD8222;
+    cursor: pointer;
+}

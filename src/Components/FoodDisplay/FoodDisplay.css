@@ -1,0 +1,26 @@
+.food-display{
+    background-color: #E6DEDE;
+    padding-bottom: 80px; /* Adds space above the footer */
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+    margin: 0px 30px;
+    margin-bottom: 10px; /* space between h2 and hr */
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,2fr));
+    gap: 30px;
+    row-gap: 50px;
+    margin: 0px 30px;
+}
+
+.food-display hr {
+    width: 95%;
+    height: 2px;
+    background: grey;
+    border: none;
+    margin: 0px 30px 50px 30px; /* top, right, bottom, left */
+}
+

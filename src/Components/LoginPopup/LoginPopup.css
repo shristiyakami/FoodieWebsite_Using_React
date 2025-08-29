@@ -1,0 +1,83 @@
+.login-popup{
+    position: absolute;
+    z-index: 1; /*Higher the z-index more it appears above other elements*/
+    width: 100%;
+    height: 100%;
+    background-color: #00000090; /*semi-transparent black background*/
+    display: grid; /*Turns the container into a CSS Grid layout*/
+}
+.login-popup-container{
+    place-self: center; /*This works because the parent (.login-popup) uses display: grid; It centers element both horizontally and vertically*/
+    width: max(23vw,330px); /*23% of the viewport width, 330 pixels*/
+    color: #808080; /*sets text color*/
+    background-color: white; 
+    display: flex; /*helps align its child elements easily*/
+    flex-direction: column; /*Aligns child elements in a vertical stack (top to bottom).*/
+    gap: 25px;
+    padding: 25px 30px; /*Adds inner spacing:25px on top and bottom And 30px on left and right.*/
+    border-radius: 8px; /*Rounds the corners of the container*/
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+    display: flex; /*Items are placed in a row (horizontal) by default.*/
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.login-popup-title img {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #666;
+    transition: 0.3s;
+}
+
+.login-popup-title img:hover {
+    color: #000;
+}
+
+.login-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-popup-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.login-popup-condition input{
+    margin-top: 5px;
+}
+
+.login-popup p span{
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}

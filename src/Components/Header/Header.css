@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header{
+    height: 49vw;
+    margin: -5px auto;
+    background: url('/header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 40%;
+    left: 6vw;
+   
+}
+.header-contents h1{
+    font-weight: 800;
+    color: #F3850F;
+    font-size: max(4.5vw,22px);
+}
+.header-contents h2{
+    font-weight: 500;
+    color: black;
+    font-size: max(1.5vw,5px);
+    margin-left: 40px;
+}
+.header-contents p{
+    font-weight: 500;
+    color: black;
+    font-size: 1.5vw;
+    margin-left: 70px;
+    animation: fadeIn 3s;
+}
+.header-contents button{
+    position: absolute;
+    bottom: -45%;
+    border: nonw;
+    color: black;
+    font-weight: 500;
+    padding: 0.5vw 1vw;
+    background-color: #F3850F;
+    font-size: max(1vw,1vw);
+    border-radius: 10px;
+    margin-left: 150px;
+    animation: fadeIn 3s;
+}
+.header-contents button:hover{
+    background-color: #DD8222;
+    cursor: pointer;
+}
+
+.phone-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    position: absolute;
+    bottom: -100%;
+    left: 230px; 
+}
+.phone_icon {
+    width: 30px;   
+    height: 30px;
+}
+.phone-no {
+    color: #F3850F; 
+    font-size: 18px;
+    font-weight: 400;
+}
