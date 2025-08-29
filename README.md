@@ -6,10 +6,12 @@ Welcome to the Foodie Website page. This project is designed in Figma and implem
 
 - **Frontend:** React JS, Vite, JavaScript, HTML, CSS  
 - **Design:** Figma  
-- **Styling:** CSS / TailwindCSS *(if used)*  
+- **Styling:** CSS   
 - **Version Control:** Git, GitHub  
 
-**Figma Design**
-View the Figma design here:[![Figma](https://img.shields.io/badge/Figma-Design-blue)]([https://www.figma.com/file/your-figma-lin](https://www.figma.com/design/dyJo5jpaWGX2nGiYufkzPH/Untitled?node-id=0-1&t=licfmxCSjAdkM931-1))
+### **Figma Design**  
+
+[**View the Figma Design here:**]([Insert-your-Figma-link-here](https://www.figma.com/design/dyJo5jpaWGX2nGiYufkzPH/Untitled?node-id=0-1&t=licfmxCSjAdkM931-1))  
+
 
 ![image alt](https://github.com/shristiyakami/FoodieWebsite_Using_React/blob/278dc4532770a3e99d02fc3fdf482a4c89d3bbf2/1.png)
